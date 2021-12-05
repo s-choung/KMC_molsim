@@ -9,7 +9,7 @@ See Also
 Module: user_events
 
 """
-from .base.sites import SiteBase
+from KMC_molsim.base.sites import SiteBase
 
 
 class Site(SiteBase):

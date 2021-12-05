@@ -5,10 +5,10 @@ import numpy as np
 from ase.io import write
 from ase.build import fcc111
 import sys,os
-from .user_sites import Site
-from .user_system import System
-from .user_kmc import NeighborKMC
-from .user_events import (OAdsEvent, ODesEvent, 
+from KMC_molsim.user_sites import Site
+from KMC_molsim.user_system import System
+from KMC_molsim.user_kmc import NeighborKMC
+from KMC_molsim.user_events import (OAdsEvent, ODesEvent, 
                          COAdsEvent, CODesEvent, COOxEvent, CODiffEvent, ODiffEvent)
 
 def run_test():

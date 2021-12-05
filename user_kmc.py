@@ -12,11 +12,11 @@ Module: base.kmc
 from __future__ import print_function
 import numpy as np
 import ase.io
-from .base.kmc import NeighborKMCBase
-from .base.logging import Log
-from .user_constants import *
-from .user_sites import Site
-from .user_events import *
+from KMC_molsim.base.kmc import NeighborKMCBase
+from KMC_molsim.base.logging import Log
+from KMC_molsim.user_constants import *
+from KMC_molsim.user_sites import Site
+from KMC_molsim.user_events import *
 import pyclbr
 import h5py
 

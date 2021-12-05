@@ -10,13 +10,13 @@ Module: base.events for documentation about the methods possible(), get_rate(), 
 """
 
 import numpy as np
-from .base.events import EventBase
-from .user_entropy import get_Zvib, get_Z_CO, get_Z_O2
+from KMC_molsim.base.events import EventBase
+from KMC_molsim.user_entropy import get_Zvib, get_Z_CO, get_Z_O2
 
-from .user_constants import mCO, mO2, Asite, modes_COads, \
+from KMC_molsim.user_constants import mCO, mO2, Asite, modes_COads, \
     modes_Oads, modes_TS_COOx, modes_COgas, modes_O2gas, kB, eV2J, s0CO, s0O, h
 
-from .user_energy import EadsCO, EadsO, get_Ea, \
+from KMC_molsim.user_energy import EadsCO, EadsO, get_Ea, \
     get_repulsion, EdiffCO, EdiffO
 
 
